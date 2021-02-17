@@ -12,7 +12,7 @@ public class CreditsQuit : MonoBehaviour
 
    IEnumerator BackToMainMenu()
     {
-        yield return new WaitForSeconds(15.5f);
+        yield return new WaitForSeconds(10.1f);
         SceneManager.LoadScene(1);
     }
 }
